@@ -6,7 +6,7 @@
 | IsEnabled | bool | Is the plugin enabled | true |
 | RandomDamage | bool | If inflicted damage may be smaller or larger than value on a list | false |
 | RandomDamageMaxValue | int | Maximum value for smaller or larger damage amount, ignored if damage from the list is equal to 0 (Damage from the list +/- from 0 to this value) | 20 |
-| ScpDamageAmount | Dictionary<RoleType, float> | SCPs list with damage amount which tesla will inflict to them (Rerember that one Tesla burst hits 2 or 3 times) | Defualt float values makes that all of SCPs (expect 106) dies from 2 Tesla bursts if they have full HP |
+| ScpDamageAmount | Dictionary<RoleType, float> | SCPs list with damage amount which tesla will inflict to them (Remember that one Tesla burst hits 2 or 3 times) | Defualt float values makes that all of SCPs (expect 106) dies from 2 Tesla bursts if they have full HP |
 
 # Defualt damage values
 - Scp049:  <b>425</b> 
